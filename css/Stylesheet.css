@@ -1,0 +1,44 @@
+@font-face {  
+  font-family: "OswaldNew-Regular";  
+  /* src: url( OswaldNew-Regular.ttf  );  */  /* IE */
+  src: local(" real FontName "), url( OswaldNew-Regular.ttf ) format("truetype"); /* non-IE */  
+}  
+
+p.banner_style { 
+		font-family: "OswaldNew-Regular", verdana, helvetica, sans-serif;
+		font-size: 20px; 
+		color : #B5192D;
+		text-align: center;
+		border-style: solid;
+		border-color: #2B3266;
+		border-width: 1px;
+		height: 60px;
+		width: 415px;
+		position:relative;
+		margin-top:10%%;
+  		left: 25%;
+  		background: white;
+}  
+
+
+#map_canvas{
+  		left: 25%;
+  		width:415px;
+  		height:400px;
+  		position:relative;
+  		font-family: "OswaldNew-Regular", verdana, helvetica, sans-serif;
+  		font-size: 15px; 
+		color : #B5192D;
+		text-align: center;
+
+}
+
+#testdiv{
+  		left: 25%;
+  				position:relative;
+}
+
+body {
+	background: #000 url(navy_blue.png);
+	color: #FFF;
+}
